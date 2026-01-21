@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Message to Gmail</title>
+<style>
+  body {
+    background-color: #12329b;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("girllogo.jpg");
+    background-size: contain;
+  }
+  form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 320px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ed0606;
+  }
+  
+</style>
+</head>
+<body>
+  <form action="https://formspree.io/f/xgvnpgzy" method="POST">
+    <h2>HER SHIELD</h2>
+    <marquee direction="right" scrollamount="8" style="color:#b30059; font-weight:bold;">
+🛡 Empower • Protect • Support 💪
+</marquee>
+    <input type="text" name="name" placeholder="Can i know your name, please" required>
+    <textarea name="message" rows="5" placeholder="Do you need HELP?" required></textarea>
+    <button type="submit">EMERGENCY</button>
+  </form>
+</body>
+</html>
